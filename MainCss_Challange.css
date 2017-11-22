@@ -81,3 +81,21 @@ body{
 .cimg{
 	margin-left: 5px;
 }
+.inland{
+    height: 170px;
+    width: 100px;
+    float: left;
+    font-family: sans-serif;
+    
+    
+    
+}
+.inp{
+   
+    
+    color: aliceblue;
+}
+.foot{
+    background-color: #16406a;
+    
+}
