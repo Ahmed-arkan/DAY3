@@ -1,10 +1,11 @@
 
 *{
-	margin: 0 auto;
+	margin: 0 auto
 }
 
 body{
 	background-color: #5286c0;
+    width: 1200px
 }
 
 .clear {
@@ -12,35 +13,38 @@ body{
 }
 
 .container {
-	width: 80%
-}
-.rect {
-	border: 1px solid black;
+    width: 80%;
+    margin-left: 0px;
+    background-color: #5d8cc5;
 }
 
-.art{
-	border: 1px solid blue;
+main {
+    width: 80%;
 }
 
 .nav {
-	padding: 10px;
+	padding: 4px;
 	height: 20px;
-	background-color: rgba(0,0,0, 0.5);	
+	background-color: rgba(0,0,0, 0.2);
+    width: 98%;
+    margin-top: 20px;
+    margin-bottom: 3px;
 }
-.center_1{
-	width: 100%;
-	text-align: center;
-}
-.center_1 a{
-	padding: 5px;
-	text-decoration: none;
-	color: orange;
-	margin: 6px;
 
+.center_1 {
+	width: 100%;
 }
-.center_1 a:hover{
-	border-bottom:solid 3px;
-	color: goldenrod;
+
+.center_1 a{
+	padding: 1px;
+	text-decoration: none;
+	color: snow;
+	margin: 0 15px;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}.center_1 a:hover{
+	border-bottom:solid 1px;
+	color:whitesmoke;
 }
 
 #header {
@@ -48,11 +52,22 @@ body{
 	/*position:relative;*/
 
 }
-#rect2{
-	margin-left: 25%;
+#rect1 img{
+    
+    margin-left: 60px;
+    margin-top: 10px
 }
-#rect3{
+#rect2 img{
+    margin-left: 160px;
+    width: 12%;
+    
+}
+#rect3 {
 	float: right;
+    margin-top: 20px;
+    margin-right: 12px
+    
+    
 	
 }
 
@@ -86,16 +101,41 @@ body{
     width: 100px;
     float: left;
     font-family: sans-serif;
-    
-    
+    margin-top: 7px;
+    margin-bottom: 1px
+
     
 }
 .inp{
-   
-    
+   margin-top: 8px;
+    color: aliceblue;
+}
+.inp1{
+     margin-bottom: 10px;
     color: aliceblue;
 }
 .foot{
     background-color: #16406a;
+    margin-bottom: 20px;
+    height: 30px;
+    color: snow;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    width: 100%
     
+    
+}
+.imgs{
+    margin-bottom: 15px;
+    
+    
+}
+.inland1{
+    
+    height: 170px;
+    width: 100px;
+    float: left;
+    font-family: sans-serif;
+    margin-top: 9px;
 }
