@@ -3,6 +3,10 @@
 	margin: 0 auto;
 }
 
+.clear {
+    clear: both
+}
+
 .container {
 	width: 80%
 }
@@ -35,6 +39,13 @@
 	/*position:relative;*/
 
 }
+.column {
+    float: left;
+    width: 10%;
+    padding: 2px;
+    
+}
+
 
 #rect1{
 	
@@ -46,4 +57,21 @@
 #rect3{
 	float: right;
 	
+}
+
+.center{
+    float: left;
+    width: 60%;
+    padding: 2px;
+    
+    
+}
+.column1 {
+    float: right;
+    width: 10%;
+    padding: 2px;
+    
+}
+.fotter{
+ font-family: sans-serif; 
 }
