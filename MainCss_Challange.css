@@ -1,0 +1,49 @@
+
+*{
+	margin: 0 auto;
+}
+
+.container {
+	width: 80%
+}
+.rect {
+	border: 1px solid black;
+}
+
+.art{
+	border: 1px solid blue;
+}
+
+.nav {
+	height: 40px;
+	background-color: rgba(0,0,0, 0.5);
+}
+.nav .menu a{
+	padding: 8px;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+
+}
+.nav .menu a:hover{
+	border-bottom:solid 10px;
+	color: goldenrod;
+}
+
+#header {
+	height: 100px;
+	/*position:relative;*/
+
+}
+
+#rect1{
+	
+} 
+#rect2{
+	
+	margin-left: 45%;
+}
+#rect3{
+	float: right;
+	
+}
